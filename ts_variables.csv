@@ -1,0 +1,160 @@
+variable;category;keep;printed_name
+time;;1;time
+heart_rate;vitals;1;Heart rate
+invasive_systolic_blood_pressure;vitals;1;Invasive systolic BP
+invasive_diastolic_blood_pressure;vitals;1;Invasive diastolic BP
+invasive_mean_blood_pressure;vitals;1;Invasive mean BP
+noninvasive_systolic_blood_pressure;vitals;1;Noninvasive systolic BP
+noninvasive_diastolic_blood_pressure;vitals;1;Noninvasive diastolic BP
+noninvasive_mean_blood_pressure;vitals;1;Noninvasive mean BP
+O2_arterial_saturation;vitals;1;O2 arterial saturation
+temperature;vitals;1;Temperature
+respiratory_rate;respiratory;1;Respiratory rate
+expiratory_tidal_volume;respiratory;1;Expiratory tidal volume
+plateau_pressure;respiratory;1;Plateau pressure
+respiratory_rate_setting;respiratory;1;Respiratory rate setting
+tidal_volume_setting;respiratory;1;Tidal volume setting
+FiO2;respiratory;1;FiO2
+PEEP;respiratory;1;PEEP
+lactate;laboratory;1;Lactate
+blood_glucose;laboratory;1;Blood glucose
+magnesium;laboratory;1;Magnesium
+sodium;laboratory;1;Sodium
+creatinine;laboratory;1;Creatinine
+calcium;laboratory;1;Calcium
+chloride;laboratory;1;Chloride
+potassium;laboratory;1;Potassium
+PTT;laboratory;1;PTT
+bilirubine;laboratory;1;Bilirubine
+alanine_aminotransferase;laboratory;1;Alanine aminotransferase
+aspartate_aminotransferase;laboratory;1;Aspartate aminotransferase
+alkaline_phosphatase;laboratory;1;Alkaline phosphatase
+albumin;laboratory;1;Albumin
+phosphate;laboratory;1;Phosphate
+bicarbonate;laboratory;1;Bicarbonate
+blood_urea_nitrogen;laboratory;1;Blood urea nitrogen
+pH;laboratory;1;pH
+paO2;laboratory;1;Pao2
+paCO2;laboratory;1;paCO2
+hemoglobin;laboratory;1;Hemoglobin
+white_blood_cells;laboratory;1;White blood cells
+platelets;laboratory;1;Platelets
+urine_output;laboratory;1;Urine output
+glasgow_coma_score;vitals;1;Glasgow coma score
+glasgow_coma_score_eye;vitals;1;Glasgow coma score eye
+glasgow_coma_score_motor;vitals;1;Glasgow coma score motor
+glasgow_coma_score_verbal;vitals;1;Glasgow coma score verbal
+abciximab;medication;0;Abciximab
+acyclovir;medication;0;Acyclovir
+alteplase;medication;1;Alteplase
+amiodarone;medication;0;Amiodarone
+amlodipine;medication;0;Amlodipine
+amoxicillin;medication;0;Amoxicillin
+ampicillin;medication;0;Ampicillin
+angiotensin II;medication;0;
+argatroban;medication;0;Argatroban
+aspirin;medication;0;Aspirin
+atorvastatin;medication;0;Atorvastatin
+atracurium;medication;1;Atracurium
+azithromycin;medication;0;Azithromycin
+bisacodyl;medication;0;Bisacodyl
+bivalirudin;medication;0;Bivalirudin
+bumetanide;medication;0;Bumetanide
+captopril;medication;0;Captopril
+carvedilol;medication;0;Carvedilol
+cefazolin;medication;0;Cefazolin
+cefepime;medication;0;Cefepime
+ceftazidime;medication;0;Ceftazidime
+ceftriaxone;medication;0;Ceftriaxone
+ciprofloxacin;medication;0;Ciprofloxacin
+cisatracurium;medication;1;Cisatracurium
+clindamycin;medication;0;Clindamycin
+clonazepam;medication;0;Clonazepam
+clonidine;medication;0;Clonidine
+desmopressin;medication;0;Desmopressin
+dexamethasone;medication;1;Dexamethasone
+dexmedetomidine;medication;0;Dexmedetomidine
+diltiazem;medication;0;Diltiazem
+diphenhydramine;medication;0;Diphenhydramine
+dobutamine;medication;1;Dobutamine
+dopamine;medication;1;Dopamine
+enoximone;medication;0;Enoximone
+epinephrine;medication;1;Epinephrine
+epoprostenol;medication;0;Epoprostenol
+eptifibatide;medication;0;Eptifibatide
+erythromycin;medication;0;Erythromycin
+esmolol;medication;0;Esmolol
+felodipine;medication;0;Felodipine
+fentanyl;medication;1;Fentanyl
+fluconazole;medication;0;Fluconazole
+flumazenil;medication;1;Flumazenil
+furosemide;medication;1;Furosemide
+gentamicin;medication;0;Gentamicin
+glycopyrronium;medication;0;Glycopyrronium
+haloperidol;medication;0;Haloperidol
+heparin;medication;0;Heparin
+hydrocodone;medication;0;Hydrocodone
+hydromorphone;medication;0;Hydromorphone
+hypromellose;medication;0;Hypromellose
+ketamine;medication;1;Ketamine
+ketorolac;medication;0;Ketorolac
+lansoprazole;medication;0;Lansoprazole
+lepirudin;medication;0;Lepirudin
+levetiracetam;medication;0;Levetiracetam
+levofloxacin;medication;0;Levofloxacin
+lidocaine;medication;0;Lidocaine
+linezolid;medication;0;Linezolid
+lorazepam;medication;0;Lorazepam
+meropenem;medication;0;Meropenem
+methadone;medication;0;Methadone
+methylprednisolone;medication;0;Methylprednisolone
+metoclopramide;medication;0;Metoclopramide
+metronidazole;medication;0;Metronidazole
+micafungin;medication;0;Micafungin
+midazolam;medication;1;Midazolam
+milrinone;medication;0;Milrinone
+mirtazapine;medication;0;Mirtazapine
+morphine;medication;0;Morphine
+neostigmine;medication;0;Neostigmine
+nesiritide;medication;0;Nesiritide
+nicardipine;medication;0;Nicardipine
+nimodipine;medication;0;Nimodipine
+nitroglycerin;medication;0;Nitroglycerin
+nitroprusside;medication;0;Nitroprusside
+norepinephrine;medication;1;Norepinephrine
+octreotide;medication;0;Octreotide
+pancuronium;medication;1;Pancuronium
+pentobarbital;medication;0;Pentobarbital
+phenylephrine;medication;0;Phenylephrine
+phenytoin;medication;0;Phenytoin
+piperacillin;medication;0;Piperacillin
+procainamide;medication;0;Procainamide
+propofol;medication;1;Propofol
+ranitidine;medication;0;Ranitidine
+rocuronium;medication;0;Rocuronium
+simvastatin;medication;0;Simvastatin
+spironolactone;medication;0;Spironolactone
+succinylcholine;medication;0;Succinylcholine
+sufentanil;medication;1;Sufentanil
+sulfamethoxazole;medication;0;Sulfamethoxazole
+thiopental;medication;0;Thiopental
+tirofiban;medication;0;Tirofiban
+tramadol;medication;0;Tramadol
+tranexamic acid;medication;0;
+treprostinil;medication;0;Treprostinil
+triamterene;medication;0;Triamterene
+vancomycin;medication;0;Vancomycin
+vasopressin (USP);medication;0;
+vecuronium;medication;1;Vecuronium
+warfarin;medication;0;Warfarin
+xylometazoline;medication;0;Xylometazoline
+insulin;medication;0;Insulin
+dextrose;medication;0;Dextrose
+gelofusine;medication;0;Gelofusine
+thiamine;medication;0;Thiamine
+NaCL;medication;0;Nacl
+polyethylene glycols;medication;0;
+Kcl;medication;0;Kcl
+potassium phosphate;medication;0;
+magnesium sulfate;medication;0;
+hour;;0;Hour
