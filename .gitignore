@@ -1,5 +1,3 @@
 __pycache__
 results/
-*.json
-!paths.json
 figures/

@@ -1,0 +1,95 @@
+{
+    "config": {
+        "task":"multitask",
+        "dataset": "blended",
+        "use_flat": true,
+        "use_med": true,
+	"use_lab": true,
+        "use_vitals": true,
+        "use_resp": false,
+	"percentage_test": 50,
+	"alpha": 20
+    },
+   "experiments": {
+	"main_experiment":{
+	"models": ["tpc"],
+	"runs":[
+	    {"train_on":["mimic4"],
+	    "percentage_trainval": 75,
+	    "use_as_pretrained": true},
+	    {"train_on":["amsterdam"],
+	    "percentage_trainval": 25},
+	    {"percentage_trainval_dic": {"amsterdam": 25,
+					 "mimic4": 75}},
+	    {"train_on": ["amsterdam"],
+	     "percentage_trainval": 25,
+	     "from_pretrained": true,
+	     "retrain_last_layer_only": false}
+	]},
+    "model_benchmark": {
+	"models": ["lstm", "transformer", "tpc"],
+	"runs":[
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+          "percentage_trainval": 20}
+        ]},
+    "dataset_benchmark": {
+	"models": ["tpc"],
+	"runs":[
+	{"train_on": ["amsterdam"],
+          "percentage_trainval": 20},
+	{"train_on": ["hirid"],
+	  "percentage_trainval": 20},
+	{"train_on": ["mimic4"],
+	  "percentage_trainval": 20},
+	{"train_on": ["eicu"],
+	  "percentage_trainval": 20}
+        ]},
+    "dataset_benchmark": {
+       	"models": ["tpc"],
+       	"runs":[
+       	{"train_on": ["amsterdam"],
+        "percentage_trainval": 75},
+       	{"train_on": ["hirid"],
+       	 "percentage_trainval": 75},
+       	{"train_on": ["mimic4"],
+       	 "percentage_trainval": 75},
+       	{"train_on": ["eicu"],
+       	 "percentage_trainval": 75}
+               ]},
+    "dataset_benchmark_nomed_75": {
+	"models": ["tpc"],
+	"runs":[
+	{"train_on": ["amsterdam"],
+         "percentage_trainval": 75,
+	 "use_med": false},
+	{"train_on": ["hirid"],
+	 "percentage_trainval": 75,
+	 "use_med": false},
+	{"train_on": ["mimic4"],
+	 "percentage_trainval": 75,
+	 "use_med": false},
+	{"train_on": ["eicu"],
+	 "percentage_trainval": 75,
+	 "use_med": false}
+        ]},
+    "training_size_study": {
+	"models": ["tpc"],
+	"runs":[
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 1},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 2.5},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 7.5},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 10},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 25},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 50},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 75},
+	{"train_on": ["amsterdam", "hirid", "mimic4", "eicu"],
+              "percentage_trainval": 100}
+        ]}}
+}

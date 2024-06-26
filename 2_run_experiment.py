@@ -41,12 +41,11 @@ class Experiments:
 config_fname = 'config.json'
 
 experiments = [
-    #'model_benchmark',
-    #'dataset_benchmark',
+    'model_benchmark',
+    'dataset_benchmark',
     'dataset_benchmark_nomed_75',
-    
-    #'main_experiment',
-    #'training_size_study',
+    'main_experiment',
+    'training_size_study',
     ]
 
 e = Experiments(config_fname, experiments)
